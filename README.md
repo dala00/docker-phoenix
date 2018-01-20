@@ -4,13 +4,14 @@ This repository contains a script for create [phoenix](http://www.phoenixframewo
 
 You can use these tags as a version of elixir.
 
+- `1.6.0-slim`
 - `1.5.3-slim`
 
 ### docker-compose
 
 ```
 app:
-    image: dala00/phoenix:1.5.3-slim
+    image: dala00/phoenix:1.6.0-slim
     env_file: .docker-env
     volumes:
       - .:/var/opt/app
