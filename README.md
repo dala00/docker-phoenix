@@ -4,6 +4,7 @@ This repository contains a script for create [phoenix](http://www.phoenixframewo
 
 You can use these tags as a version of elixir.
 
+- `1.6.4-slim`
 - `1.6.0-slim`
 - `1.5.3-slim`
 
@@ -19,4 +20,16 @@ app:
       - "4000:4000"
     tty: true
     stdin_open: true
+```
+
+### use
+
+```
+docker-compose exec app bash
+```
+
+And in app
+
+```
+mix.phx server
 ```
